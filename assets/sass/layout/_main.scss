@@ -1,20 +1,28 @@
 //This file is for create your style with relation on space of main
-.main{
+.main {
     padding-left: 25px;
     padding-right: 25px;
-    &__title{
+
+    @include media-breakpoint-up(md) {
+        margin: 100px 0px;
+    }
+
+    &__title {
         font-size: $xxx-large;
         font-family: $old-standard;
         font-weight: $font-bold;
     }
-    &__text{
+
+    &__text {
         color: $quick-silver;
         font-weight: $font-semi-bold;
+
         @include media-breakpoint-up(sm) {
-           margin-right: 100px;
-          }
+            margin-right: 100px;
+        }
     }
 }
-.padding{
+
+.padding {
     padding: 0;
 }

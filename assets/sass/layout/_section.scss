@@ -1,29 +1,34 @@
-.section{
+.section {
     font-family: $old-standard;
-    &__newsletter{
+
+    &__newsletter {
         padding-right: 0;
         --bs-gutter-x: 0;
     }
-    &__title{
-        
+
+    &__title {
+
         font-weight: $font-bold;
     }
-    &__column{
+
+    &__column {
         background-color: $smoky-black;
         color: $white;
         padding: 5% 30px;
     }
-    &__subscribe{
+
+    &__subscribe {
         writing-mode: vertical-lr;
         text-align: center;
-        &--text{
-            color:$smoky-black;
+
+        &--text {
+            color: $smoky-black;
             font-family: $old-standard;
             font-weight: $font-bold;
             padding-top: 1.5rem;
             font-size: $x-large;
             margin: auto;
         }
-       
+
     }
 }
