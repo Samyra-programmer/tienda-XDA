@@ -10782,8 +10782,8 @@ html, body * {
 }
 
 .main {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .main__title {
   font-size: 50px;
@@ -10808,7 +10808,7 @@ html, body * {
 .section__column {
   background-color: #0c0910;
   color: #fff;
-  padding: 5%;
+  padding: 5% 30px;
 }
 .section__subscribe {
   writing-mode: vertical-lr;
@@ -10832,7 +10832,7 @@ html, body * {
   display: block;
 }
 .form__input {
-  width: 100%;
+  width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */
