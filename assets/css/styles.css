@@ -10771,6 +10771,9 @@ html, body * {
   margin-left: 10px;
 }
 
+.header {
+  padding: 0;
+}
 .header__img {
   background-image: url("/assets/img/imagen1.png");
   padding: 0;
@@ -10779,11 +10782,18 @@ html, body * {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  filter: saturate(1.5);
 }
 @media (min-width: 576px) {
   .header__img {
     height: 290px;
     background-position: 0px -120px;
+  }
+}
+@media (min-width: 768px) {
+  .header__img {
+    height: 100%;
+    background-position: top;
   }
 }
 
@@ -10804,6 +10814,10 @@ html, body * {
   .main__text {
     margin-right: 100px;
   }
+}
+
+.padding {
+  padding: 0;
 }
 
 .section {
@@ -10830,6 +10844,8 @@ html, body * {
   font-family: "Old Standard TT", serif;
   font-weight: 700;
   padding-top: 1.5rem;
+  font-size: 20px;
+  margin: auto;
 }
 
 .main__button {

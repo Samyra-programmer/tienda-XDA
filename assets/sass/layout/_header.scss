@@ -1,5 +1,6 @@
 //This file is for create your style with relation on space of header
 .header{
+    padding: 0;
     &__img{
         background-image: url('/assets/img/imagen1.png');
          padding: 0;
@@ -8,9 +9,14 @@
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
+        filter: saturate(1.5);
         @include media-breakpoint-up(sm) {
             height: 290px;
             background-position: 0px -120px;
+          }
+          @include media-breakpoint-up(md) {
+            height: 100%;
+            background-position: top;
           }
     }
 }
