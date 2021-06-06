@@ -10,5 +10,8 @@
     &__text{
         color: $quick-silver;
         font-weight: $font-semi-bold;
+        @include media-breakpoint-up(sm) {
+           margin-right: 100px;
+          }
     }
 }

@@ -8,5 +8,9 @@
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
+        @include media-breakpoint-up(sm) {
+            height: 290px;
+            background-position: 0px -120px;
+          }
     }
 }

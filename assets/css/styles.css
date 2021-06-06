@@ -10780,6 +10780,12 @@ html, body * {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (min-width: 576px) {
+  .header__img {
+    height: 290px;
+    background-position: 0px -120px;
+  }
+}
 
 .main {
   padding-left: 25px;
@@ -10793,6 +10799,11 @@ html, body * {
 .main__text {
   color: #a6a5a8;
   font-weight: 500;
+}
+@media (min-width: 576px) {
+  .main__text {
+    margin-right: 100px;
+  }
 }
 
 .section {
@@ -10832,7 +10843,12 @@ html, body * {
   display: block;
 }
 .form__input {
-  width: 90%;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .form__input {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

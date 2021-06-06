@@ -3,6 +3,9 @@
         display: block;
     }
     &__input{
-        width: 90%;
+        width: 100%;
+        @include media-breakpoint-up(sm) {
+            width: 90%; // tablet
+          }
     }
 }
