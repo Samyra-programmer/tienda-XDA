@@ -1,0 +1,32 @@
+//This file is for create your style with relation on space of navbar
+.navbar, .navbar__espace{
+    padding: 0;
+    padding-right: 15px;
+    display: flex;
+&-light .navbar-brand{
+    background-color: $smoky-black;
+    color: $white;
+    padding: 15px;
+    font-family: $old-standard;
+    font-weight: $font-bold;
+}
+&-toggler{
+    border: none;
+    z-index: 2;
+    appearance: none;
+    &:focus{
+        border: none;
+    }
+    &:active {
+        border: none;
+    }
+    &:checked {
+        border: none;
+      }
+}
+}
+.nav-link{
+    color: $smoky-black;
+    font-weight: $font-bold;
+    margin-left: 10px;
+}

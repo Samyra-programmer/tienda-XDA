@@ -1,0 +1,14 @@
+//This file is for create your style with relation on space of main
+.main{
+    padding-left: 5%;
+    padding-right: 5%;
+    &__title{
+        font-size: $xxx-large;
+        font-family: $old-standard;
+        font-weight: $font-bold;
+    }
+    &__text{
+        color: $quick-silver;
+        font-weight: $font-semi-bold;
+    }
+}
